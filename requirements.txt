@@ -1,0 +1,30 @@
+absl-py @ file:///tmp/build/80754af9/absl-py_1600297512717/work
+astor==0.8.1
+certifi==2020.6.20
+chardet==3.0.4
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+grpcio @ file:///tmp/build/80754af9/grpcio_1597424460877/work
+h5py @ file:///tmp/build/80754af9/h5py_1593454121459/work
+idna==2.10
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+Keras==2.2.0
+Keras-Applications==1.0.2
+Keras-Preprocessing==1.0.1
+Markdown @ file:///tmp/build/80754af9/markdown_1603216459557/work
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603487797006/work
+opencv-python==4.4.0.44
+protobuf==3.13.0
+PyYAML==5.3.1
+requests==2.24.0
+scipy @ file:///tmp/build/80754af9/scipy_1597686625380/work
+six==1.15.0
+tensorboard==1.10.0
+tensorflow==1.10.0
+termcolor==1.1.0
+tqdm==4.51.0
+urllib3==1.25.11
+Werkzeug==1.0.1
+zipp @ file:///tmp/build/80754af9/zipp_1603306325174/work
