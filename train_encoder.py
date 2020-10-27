@@ -14,9 +14,9 @@ def main():
                         help='path to the stylegan generator, which serves as a decoder here.')
     parser.add_argument('--num_gpus', type=int, default=8,
                         help='Number of GPUs to use during training (defaults: 8)')
-    parser.add_argument('--image_size', type=int, default=256,
+    parser.add_argument('--image_size', type=int, default=512,
                         help='the image size in training dataset (defaults; 256)')
-    parser.add_argument('--dataset_name', type=str, default='ffhq',
+    parser.add_argument('--dataset_name', type=str, default='anime',
                         help='the name of the training dataset (defaults; ffhq)')
     parser.add_argument('--mirror_augment', action='store_false',
                         help='Mirror augment (default: True)')

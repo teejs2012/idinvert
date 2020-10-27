@@ -8,6 +8,8 @@ except Exception:
     pass
 else:
     _validate_and_load_nccl_so()
+
+# from tensorflow.python.ops import gen_nccl_ops
 from tensorflow.contrib.nccl.ops import gen_nccl_ops
 
 
@@ -315,7 +317,7 @@ def Encoder(
             size             = 256,    # Input image size.
             filter           = 64,     # Minimum number of feature maps in any layer.
             filter_max       = 512,    # Maximum number of feature maps in any layer.
-            num_layers       = 14,     # Number of layers in in G_synthesis().
+            num_layers       = 16,     # Number of layers in in G_synthesis().
             is_training      = True,   # Whether or not the layer is in training mode?
             num_gpus         = 8,      # Number of gpus to use
             dlatent_size     = 512,    # Disentangled latent (W) dimensionality.
